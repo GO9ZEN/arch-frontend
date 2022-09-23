@@ -1,0 +1,65 @@
+.archServicesNavbar {
+    /* padding: 0 20px; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #023e8a;
+    /* gap: 200px; */
+}
+
+.archServicesNavbar-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 140px;
+    border-radius: 25px;
+    border: 1px solid #e4e4e4;
+    background: #009C77;
+    cursor: pointer;
+}
+
+.archServicesNavbar-div:hover {
+    /* background: #5F9EA0; */
+    background: #03045e;
+}
+
+.archServicesNavbar-div span:hover {
+    /* color: #0096c7; */
+}
+
+.archServicesNavbar-div span {
+    color: #e4e4e4;
+    font-size: 16px;
+}
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (0px - 768px)  *****/
+/*************************************************************/
+@media all and (max-width: 768px) {
+    .archServicesNavbar {
+        height: 40px;
+        /* display: none; */
+    }
+
+    .archServicesNavbar-div {
+        height: 20px;
+        width: 100px;
+    }
+    
+    .archServicesNavbar-div span {
+        font-size: 12px;
+    }
+}
+
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (0px - 360px)  *****/
+/*************************************************************/
+@media all and (max-width: 360px) {
+    .archServicesNavbar {
+        display: none;
+    }
+}

@@ -1,0 +1,13 @@
+.cart-part2 {
+    gap: 18px;
+}
+
+.cart-part2 h5 {
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cart-part2 h3 {
+    margin-right: 8px;
+}

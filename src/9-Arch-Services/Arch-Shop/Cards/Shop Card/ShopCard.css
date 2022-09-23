@@ -1,0 +1,296 @@
+/*************************************************************/
+/***** SHOP-CARD  *****/
+/*************************************************************/
+.card-shop {
+    width: 260px;
+    height: 260px;
+    background: #101010;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+
+.card-shop img {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.details-card-shop {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px 0px 10px;
+    gap: 10px;
+}
+
+.details-card-shop h3 {
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    width: 240px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    color: #e4e4e4;
+}
+
+.details-card-shop p {
+    /* margin-bottom: 12px; */
+    text-overflow: ellipsis;
+    font-weight: 400;
+    font-size: 12px;
+    display: inline-block;
+    width: 240px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    color: darkgrey;
+}
+
+.details-card-shop span {
+    margin-top: 6px;   
+    display: flex;
+    font-size: 14px;
+}
+
+.details-card-shop ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.details-card-shop ul li i {
+    margin-right: 10px;
+}
+
+.like-card-shop {
+    display: flex;
+    flex-direction: row;
+}
+
+.like-card-shop span i {
+    color: rgb(220, 220, 0);
+}
+
+.fa-share-shop-card span {
+    color: #e4e4e4;
+    cursor: pointer;
+}
+
+.fa-share-shop-card span i:hover {
+    color: #009C77;
+}
+
+/*************************************************************/
+/***** SHOP CARD - (1025px - 1200px)  *****/
+/*************************************************************/
+@media all and (max-width: 1200px) {
+    .card-shop {
+        width: 180px;
+        height: 240px;
+    }
+    
+    .card-shop img {
+        height: 140px;
+    }
+
+    .details-card-shop {
+        margin: 10px 8px 0px 8px;
+        gap: 10px;
+    }
+    
+    .details-card-shop h3 {
+        font-size: 12px;
+        width: 160px;
+    }
+    
+    .details-card-shop p {
+        font-size: 10px;
+        width: 160px;
+    }
+    
+    .details-card-shop span {
+        margin-top: 6px;
+        font-size: 12px;
+    }
+    
+    .details-card-shop ul {
+        gap: 20px;
+    }
+    
+    .details-card-shop ul li i {
+        margin-right: 6px;
+    }
+}
+
+/*************************************************************/
+/***** SHOP CARD - (769px - 1024px)  *****/
+/*************************************************************/
+@media all and (max-width: 1024px) {
+    .card-shop {
+        width: 160px;
+        height: 220px;
+    }
+    
+    .card-shop img {
+        height: 130px;
+    }
+    
+    .details-card-shop {
+        margin: 9px 7px 0px 7px;
+        gap: 8px;
+    }
+    
+    .details-card-shop h3 {
+        font-size: 11px;
+        width: 140px;
+    }
+    
+    .details-card-shop p {
+        font-size: 9px;
+        width: 140px;
+    }
+    
+    .details-card-shop span {
+        margin-top: 6px;
+        font-size: 11px;
+    }
+    
+    .details-card-shop ul {
+        gap: 16px;
+    }
+    
+    .details-card-shop ul li i {
+        margin-right: 5px;
+    }
+}
+
+/*************************************************************/
+/***** SHOP CARD - (481px - 768px)  *****/
+/*************************************************************/
+@media all and (max-width: 768px) {
+    .card-shop {
+        width: 140px;
+        height: 200px;
+    }
+    
+    .card-shop img {
+        height: 120px;
+    }
+    
+    .details-card-shop {
+        margin: 8px 6px 0px 6px;
+        gap: 8px;
+    }
+    
+    .details-card-shop h3 {
+        font-size: 10px;
+        width: 120px;
+    }
+    
+    .details-card-shop p {
+        font-size: 8px;
+        width: 120px;
+    }
+    
+    .details-card-shop span {
+        margin-top: 6px;
+        font-size: 10px;
+    }
+    
+    .details-card-shop ul {
+        gap: 14px;
+    }
+    
+    .details-card-shop ul li i {
+        margin-right: 4px;
+    }
+}
+
+/*************************************************************/
+/***** SHOP CARD - (321px - 480px)  *****/
+/*************************************************************/
+@media all and (max-width: 480px) {
+    .card-shop {
+        width: 120px;
+        height: 180px;
+    }
+    
+    .card-shop img {
+        height: 110px;
+    }
+    
+    .details-card-shop {
+        margin: 7px 5px 0px 5px;
+        gap: 6px;
+    }
+    
+    .details-card-shop h3 {
+        font-size: 9px;
+        width: 100px;
+    }
+    
+    .details-card-shop p {
+        font-size: 7px;
+        width: 100px;
+    }
+    
+    .details-card-shop span {
+        margin-top: 5px;
+        font-size: 8px;
+    }
+    
+    .details-card-shop ul {
+        gap: 12px;
+    }
+    
+    .details-card-shop ul li i {
+        margin-right: 4px;
+    }
+}
+
+/*************************************************************/
+/***** SHOP CARD - (0px - 320px)  *****/
+/*************************************************************/
+@media all and (max-width: 320px) {
+    .card-shop {
+        width: 100px;
+        height: 160px;
+    }
+    
+    .card-shop img {
+        height: 100px;
+    }
+    
+    .details-card-shop {
+        margin: 6px 4px 0px 4px;
+        gap: 6px;
+    }
+    
+    .details-card-shop h3 {
+        font-size: 8px;
+        width: 80px;
+    }
+    
+    .details-card-shop p {
+        font-size: 6px;
+        width: 80px;
+    }
+    
+    .details-card-shop span {
+        margin-top: 4px;
+        font-size: 6px;
+    }
+    
+    .details-card-shop ul {
+        gap: 10px;
+    }
+    
+    .details-card-shop ul li i {
+        margin-right: 2px;
+    }
+}

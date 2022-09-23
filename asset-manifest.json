@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/arch-frontend/static/css/main.9e53cee1.css",
+    "main.js": "/arch-frontend/static/js/main.7cb2cedc.js",
+    "static/media/Five.jpg": "/arch-frontend/static/media/Five.27c7add1100e03931e3c.jpg",
+    "static/media/landscape4.jpg": "/arch-frontend/static/media/landscape4.77aa955510205812b698.jpg",
+    "static/media/landscape5.jpg": "/arch-frontend/static/media/landscape5.a3f224dfa18390fa5dba.jpg",
+    "static/media/Ad.jpg": "/arch-frontend/static/media/Ad.fbcdc74c1fb55c549587.jpg",
+    "static/media/landscape7.jpg": "/arch-frontend/static/media/landscape7.d09a458356f768270e64.jpg",
+    "static/media/landscape6.jpg": "/arch-frontend/static/media/landscape6.eb2b37b58336decd2b95.jpg",
+    "static/media/9-Arch.png": "/arch-frontend/static/media/9-Arch.068b8ed3262f939b872d.png",
+    "index.html": "/arch-frontend/index.html",
+    "main.9e53cee1.css.map": "/arch-frontend/static/css/main.9e53cee1.css.map",
+    "main.7cb2cedc.js.map": "/arch-frontend/static/js/main.7cb2cedc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e53cee1.css",
+    "static/js/main.7cb2cedc.js"
+  ]
+}

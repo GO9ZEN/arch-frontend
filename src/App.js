@@ -4,6 +4,8 @@ import NineArch from "./9-Arch-Services/9-Arch/NineArch";
 import ArchMedia from "./9-Arch-Services/Arch-Media/ArchMedia";
 import ArchShop from "./9-Arch-Services/Arch-Shop/ArchShop";
 import ArchAcademy from "./9-Arch-Services/Arch-Academy/ArchAcademy";
+import ProductScreen from "./9-Arch-Services/Arch-Shop/ProductScreen/ProductScreen";
+import ShopScreen from "./9-Arch-Services/Arch-Shop/ShopScreen/ShopScreen";
 
 import "./App.css";
 
@@ -15,7 +17,9 @@ function App() {
       <Router>
         <Routes>
           
-        <Route path='/arch-frontend' element={<ArchShop />} />
+        <Route path='/arch-shop' element={<ArchShop />} exact />
+        <Route path='/arch-shop/product/:id' element={<ProductScreen />} /> {/* '/arch-frontend/product/:id' */}
+        <Route path='/arch-shop/shop/:id' element={<ShopScreen />} />
 
           {/* <Route path='/' element={<NineArch />} exact /> */}
           {/* <Route path='/nine-arch' element={<NineArch />} /> */}

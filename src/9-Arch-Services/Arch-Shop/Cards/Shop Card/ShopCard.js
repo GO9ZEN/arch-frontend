@@ -10,7 +10,7 @@ function ShopCard({ shop }) {
       <div className="card-shop">
 
         <div className="card-shop-image">
-          <img src={shop.image} alt="" />
+          <img src={`/${shop.image}`} alt="" />
         </div>
 
         <div className="details-card-shop">

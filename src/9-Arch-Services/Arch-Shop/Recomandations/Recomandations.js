@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductCard from "../Cards/Product Card/ProductCard";
 import products from "../Cards/Product Card/products";
+import { Link } from 'react-router-dom';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
@@ -77,7 +78,9 @@ function Recomandations() {
           <div className="product-choice">
             {products.map(product => (
               <SwiperSlide className="swiper-slide-product" key={product._id}>
-                <ProductCard product={product} />
+                <Link to={'/arch-shop/product/' + product._id} style={{ textDecoration: 'none' }}>
+                  <ProductCard product={product} />
+                </Link>
               </SwiperSlide>
             ))}
           </div>

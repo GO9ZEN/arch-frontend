@@ -7,7 +7,7 @@ function CategoriesNavbar() {
     <div>
         <div className="categories-menu-navbar">
             <div className="g-and-f-navbar-1">
-              <span>Gym & Fitness</span>
+              <span>Clothing & Fashion</span>
               <div className="angle-right-category-navbar">
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
               </div>
@@ -15,7 +15,7 @@ function CategoriesNavbar() {
               <div className="navbar-2-hover-1">
                 <div className="categories-menu-more-navbar">
                     <div className="topic-category-navbar">
-                        <p>Gym & Fitness</p>
+                        <p>Clothing & Fashion</p>
                     </div>
 
                     <div className="g-and-f-navbar">
@@ -29,12 +29,32 @@ function CategoriesNavbar() {
                     <div className="g-and-f-navbar">
                         <span>Men's Wear</span>
                     </div>
+
+                    <div className="g-and-f-navbar">
+                        <span>Kids & Baby</span>
+                    </div>
+
+                    <div className="g-and-f-navbar">
+                        <span>Bags & Shoes</span>
+                    </div>
+
+                    <div className="g-and-f-navbar">
+                        <span>Jewelery & Watches</span>
+                    </div>
+
+                    <div className="g-and-f-navbar">
+                        <span>Health & Beauty</span>
+                    </div>
+
+                    <div className="g-and-f-navbar">
+                        <span>Home & Garden</span>
+                    </div>
                 </div>
               </div>
             </div>
 
             <div className="g-and-f-navbar-2">
-              <span>Sports</span>
+              <span>Consumer Electronics</span>
               <div className="angle-right-category-navbar">
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
               </div>
@@ -42,26 +62,26 @@ function CategoriesNavbar() {
               <div className="navbar-2-hover-2">
                 <div className="categories-menu-more-navbar">
                     <div className="topic-category-navbar">
-                        <p>Sports</p>
+                        <p>Consumer Electronics</p>
                     </div>
 
                     <div className="g-and-f-navbar">
-                        <span>Accessories</span>
+                        <span>Electroinc Devices</span>
                     </div>
 
                     <div className="g-and-f-navbar">
-                        <span>Women's Wear</span>
+                        <span>Electroinc Accessories</span>
                     </div>
 
                     <div className="g-and-f-navbar">
-                        <span>Men's Wear</span>
+                        <span>TV & Home Appliances</span>
                     </div>
                 </div>
               </div>
             </div>
 
             <div className="g-and-f-navbar-3">
-              <span>Foods & Suppliments</span>
+              <span>Sports & Outdoor</span>
               <div className="angle-right-category-navbar">
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
               </div>
@@ -69,19 +89,23 @@ function CategoriesNavbar() {
               <div className="navbar-2-hover-3">
                 <div className="categories-menu-more-navbar">
                     <div className="topic-category-navbar">
-                        <p>Foods & Suppliments</p>
+                        <p>Sports & Outdoor</p>
                     </div>
 
                     <div className="g-and-f-navbar">
-                        <span>Suppliments</span>
+                        <span>Accessories</span>
                     </div>
 
                     <div className="g-and-f-navbar">
-                        <span>Protein Bars & Snacks</span>
+                        <span>Gym & Fitness</span>
                     </div>
 
                     <div className="g-and-f-navbar">
-                        <span>Other Meals</span>
+                        <span>Sports</span>
+                    </div>
+
+                    <div className="g-and-f-navbar">
+                        <span>Foods & Suppliments</span>
                     </div>
                 </div>
               </div>

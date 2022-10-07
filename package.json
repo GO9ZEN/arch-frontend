@@ -1,5 +1,5 @@
 {
-  "homepage": "http://go9zen.github.io/arch-frontend",
+  "homepage": "http://go9zen.github.io/arch-shop",
   "name": "l-and-r",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +19,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
+    "react-tabs": "^5.1.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",
     "swiper": "^8.4.2",

@@ -5,7 +5,7 @@ import "./ArchServicesNavbar.css";
 function ArchServicesNavbar() {
   return (
     <div className="archServicesNavbar">
-        <div className="archServicesNavbar-div">
+        {/* <div className="archServicesNavbar-div">
             <span>Arch Media</span>
         </div>
 
@@ -15,7 +15,7 @@ function ArchServicesNavbar() {
 
         <div className="archServicesNavbar-div">
             <span>Arch Academy</span>
-        </div>
+        </div> */}
     </div>
   );
 }

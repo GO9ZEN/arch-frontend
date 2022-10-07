@@ -3,10 +3,12 @@ import Rating from '../Rating';
 
 import "../Cards.css";
 import "./ProductCard.css";
+// import { Link } from 'react-router-dom';
 
 function ProductCard({ product }) {
   return (
     <>
+    {/* <Link to={'/arch-shop/product/' + product._id} style={{ textDecoration: 'none' }}> */}
       <div className="card-product">
 
       <div className='down-part-product'>
@@ -18,7 +20,8 @@ function ProductCard({ product }) {
       </div>
 
       <div className="card-product-image">
-        <img src={product.image} alt="" />
+        {/* <img src={product.image} alt="" /> */}
+        <img src={`/${product.image}`} alt="" />
       </div>
 
       <div className="details-card-product">
@@ -40,6 +43,7 @@ function ProductCard({ product }) {
       </div>
 
       </div>
+    {/* </Link> */}
     </>
   );
 }

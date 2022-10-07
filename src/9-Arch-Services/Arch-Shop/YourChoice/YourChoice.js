@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import products from "../Cards/Product Card/products";
 import ProductCard from '../Cards/Product Card/ProductCard';
@@ -18,7 +19,9 @@ function YourChoice() {
         <div className="product-choice">
           {products.map(product => (
             <div className="product-choice-part" key={product._id}>
-              <ProductCard product={product} />
+              <Link to={'/arch-shop/product/' + product._id} style={{ textDecoration: 'none' }}>
+                <ProductCard product={product} />
+              </Link>
             </div>
           ))}
         </div>

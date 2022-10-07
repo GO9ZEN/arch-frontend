@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import NineArchLogo from "../../../components/images/9-Arch.png";
 import CartNavbar from './CartNavbar/CartNavbar';
@@ -189,9 +190,9 @@ function ArchShopHeader() {
           <i class="fa fa-bars" aria-hidden="true" onClick={showSidebar}></i>
         </div>
 
-        <div>
+        <Link to='/arch-shop'>
           <img src={NineArchLogo} alt="9-Arch-logo" className="arch-logo" />
-        </div>
+        </Link>
 
         <div className="categories-all-parts">
           <span className="categories">Categories</span>
@@ -280,7 +281,7 @@ function ArchShopHeader() {
                   </div>
                 </div>
 
-                <div className="categories-menu arch-menu">
+                {/* <div className="categories-menu arch-menu">
                   <div className="topic-category">
                     <p>9-ARCH</p>
                   </div>
@@ -296,7 +297,7 @@ function ArchShopHeader() {
                   <div className="g-and-f">
                     <span>Arch Academy</span>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="categories-menu">
                   <div className="topic-category">
@@ -304,21 +305,21 @@ function ArchShopHeader() {
                   </div>
 
                   <div className="g-and-f" onClick={showSidebarMenuGandF}>
-                    <span>Gym & Fitness</span>
+                    <span>Clothing & Fashion</span>
                     <div className="angle-right-category">
                       <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </div>
                   </div>
 
                   <div className="g-and-f" onClick={showSidebarMenuSports}>
-                    <span>Sports</span>
+                    <span>Consumer Electronics</span>
                     <div className="angle-right-category">
                       <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </div>
                   </div>
 
                   <div className="g-and-f" onClick={showSidebarMenuFoods}>
-                    <span>Foods & Suppliments</span>
+                    <span>Sports & Outdoor</span>
                     <div className="angle-right-category">
                       <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </div>
@@ -436,7 +437,7 @@ function ArchShopHeader() {
 
             <div className="categories-menu-more">
               <div className="topic-category">
-                <p>Gym & Fitness</p>
+                <p>Clothing & Fashion</p>
               </div>
 
               <div className="g-and-f">
@@ -449,6 +450,26 @@ function ArchShopHeader() {
 
               <div className="g-and-f">
                 <span>Men's Wear</span>
+              </div>
+
+              <div className="g-and-f">
+                <span>Kids & Baby</span>
+              </div>
+
+              <div className="g-and-f">
+                <span>Bags & Shoes</span>
+              </div>
+
+              <div className="g-and-f">
+                <span>Jewelery & Wathces</span>
+              </div>
+
+              <div className="g-and-f">
+                <span>Health & Beauty</span>
+              </div>
+
+              <div className="g-and-f">
+                <span>Home & Garden</span>
               </div>
             </div>
           </div>
@@ -468,19 +489,19 @@ function ArchShopHeader() {
 
             <div className="categories-menu-more">
               <div className="topic-category">
-                <p>Sports</p>
+                <p>Consumer Electronics</p>
               </div>
 
               <div className="g-and-f">
-                <span>Accessories</span>
+                <span>Electronic Devices</span>
               </div>
 
               <div className="g-and-f">
-                <span>Women's Wear</span>
+                <span>Electronic Accessories</span>
               </div>
 
               <div className="g-and-f">
-                <span>Men's Wear</span>
+                <span>TV & Home Appliances</span>
               </div>
             </div>
           </div>
@@ -500,19 +521,23 @@ function ArchShopHeader() {
 
             <div className="categories-menu-more">
               <div className="topic-category">
-                <p>Foods & Suppliments</p>
+                <p>Sports & Outdoor</p>
               </div>
 
               <div className="g-and-f">
-                <span>Suppliments</span>
+                <span>Accessories</span>
               </div>
 
               <div className="g-and-f">
-                <span>Protein Bars & Snacks</span>
+                <span>Gym & Fitness</span>
               </div>
 
               <div className="g-and-f">
-                <span>Other Meals</span>
+                <span>Sports</span>
+              </div>
+
+              <div className="g-and-f">
+                <span>Foods & Suppliments</span>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import shops from '../Cards/Shop Card/shops';
 import ShopCard from '../Cards/Shop Card/ShopCard';
+import { Link } from 'react-router-dom';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
@@ -78,7 +79,9 @@ function BestSellers() {
           <div className="shop-choice">
             {shops.map(shop => (
               <SwiperSlide className="swiper-slide-shop" key={shop._id}>
-                <ShopCard shop={shop} />
+                <Link to={'/arch-shop/shop/' + shop._id} style={{ textDecoration: 'none' }}>
+                  <ShopCard shop={shop} />
+                </Link>
               </SwiperSlide>
             ))}
           </div>

@@ -1,0 +1,461 @@
+/****************************************/
+/***** DELIVERY ADDRESS *****/
+/****************************************/
+.delivery-address {
+    background: #002222;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    min-height: 350px;
+    border: 1px solid #e4e4e4;
+    margin: 25px 25px 0px 25px;
+    overflow: hidden;
+    /* width: 50%; */
+}
+
+.delivery-part {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+    min-height: 300px;
+    width: 95%;
+    border-radius: 10px;
+    gap: 25px;
+    /* background: rebeccapurple; */
+}
+
+.delivery-topic-name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.delivery-address-address {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.delivery-address-address i {
+    font-size: 20px;
+}
+
+.delivery-address-address span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.address-part {
+    display: flex;
+    gap: 10px;
+}
+
+.address-change-btn span {
+    color: #5F9EA0;
+    cursor: pointer;
+}
+
+.address-change-btn span:hover {
+    color: #009C77;
+}
+
+.delivery-method-part {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.delivery-method-part div span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.delivery-method-part select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    height: 40px;
+    width: 200px;
+    border: 1px solid #e4e4e4;
+    background: #1b1b1b;
+    color: #e4e4e4;
+    text-indent: 5px;
+    cursor: pointer;
+}
+
+.delivery-method-part select option {
+    font-size: 16px;
+}
+
+.shipping-fee {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.shipping-fee span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shipping-fee h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.delivery-method-part span {
+    font-size: 16px;
+}
+
+/*************************************************************/
+/***** DELIVERY ADDRESS - (1025px - 1200px)  *****/
+/*************************************************************/
+@media all and (max-width: 1200px) {
+    .delivery-address {
+        min-height: 320px;
+    }
+    
+    .delivery-part {
+        margin: 23px 0;
+        min-height: 270px;
+        gap: 23px;
+    }
+    
+    .delivery-topic-name {
+        font-size: 19px;
+    }
+    
+    .delivery-address-address {
+        gap: 50px;
+    }
+    
+    .delivery-address-address i {
+        font-size: 19px;
+    }
+    
+    .delivery-address-address span {
+        font-size: 17px;
+    }
+    
+    .address-part {
+        gap: 9px;
+    }
+    
+    .delivery-method-part {
+        gap: 14px;
+    }
+    
+    .delivery-method-part div span {
+        font-size: 15px;
+    }
+    
+    .delivery-method-part select {
+        font-size: 17px;
+        height: 38px;
+        width: 160px;
+    }
+    
+    .delivery-method-part select option {
+        font-size: 15px;
+    }
+    
+    .shipping-fee {
+        gap: 14px;
+    }
+    
+    .shipping-fee span {
+        font-size: 15px;
+    }
+    
+    .shipping-fee h4 {
+        font-size: 19px;
+    }
+
+    .delivery-method-part span {
+        font-size: 15px;
+    }
+}
+
+/*************************************************************/
+/***** DELIVERY ADDRESS - (769px - 1024px)  *****/
+/*************************************************************/
+@media all and (max-width: 1024px) {
+    .delivery-address {
+        min-height: 290px;
+    }
+
+    .delivery-part {
+        margin: 21px 0;
+        min-height: 240px;
+        gap: 21px;
+    }
+    
+    .delivery-topic-name {
+        font-size: 18px;
+    }
+    
+    .delivery-address-address {
+        gap: 40px;
+    }
+    
+    .delivery-address-address i {
+        font-size: 18px;
+    }
+    
+    .delivery-address-address span {
+        font-size: 16px;
+    }
+    
+    .address-part {
+        gap: 8px;
+    }
+    
+    .delivery-method-part {
+        gap: 13px;
+    }
+    
+    .delivery-method-part div span {
+        font-size: 14px;
+    }
+    
+    .delivery-method-part select {
+        font-size: 16px;
+        height: 36px;
+        width: 150px;
+    }
+    
+    .delivery-method-part select option {
+        font-size: 14px;
+    }
+    
+    .shipping-fee {
+        gap: 13px;
+    }
+    
+    .shipping-fee span {
+        font-size: 14px;
+    }
+    
+    .shipping-fee h4 {
+        font-size: 18px;
+    }
+
+    .delivery-method-part span {
+        font-size: 14px;
+    }
+}
+
+/*************************************************************/
+/***** DELIVERY ADDRESS - (481px - 768px)  *****/
+/*************************************************************/
+@media all and (max-width: 768px) {
+    .delivery-address {
+        min-height: 260px;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .delivery-part {
+        margin: 19px 0;
+        min-height: 210px;
+        gap: 19px;
+    }
+    
+    .delivery-topic-name {
+        font-size: 17px;
+    }
+    
+    .delivery-address-address {
+        gap: 30px;
+    }
+    
+    .delivery-address-address i {
+        font-size: 17px;
+    }
+    
+    .delivery-address-address span {
+        font-size: 15px;
+    }
+    
+    .address-part {
+        gap: 7px;
+    }
+    
+    .delivery-method-part {
+        gap: 12px;
+    }
+    
+    .delivery-method-part div span {
+        font-size: 13px;
+    }
+    
+    .delivery-method-part select {
+        font-size: 15px;
+        height: 34px;
+        width: 140px;
+    }
+    
+    .delivery-method-part select option {
+        font-size: 13px;
+    }
+    
+    .shipping-fee {
+        gap: 12px;
+    }
+    
+    .shipping-fee span {
+        font-size: 13px;
+    }
+    
+    .shipping-fee h4 {
+        font-size: 17px;
+    }
+
+    .delivery-method-part span {
+        font-size: 13px;
+    }
+}
+
+/*************************************************************/
+/***** DELIVERY ADDRESS - (321px - 480px)  *****/
+/*************************************************************/
+@media all and (max-width: 480px) {
+    .delivery-address {
+        min-height: 230px;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .delivery-part {
+        margin: 17px 0;
+        min-height: 180px;
+        gap: 17px;
+    }
+    
+    .delivery-topic-name {
+        font-size: 16px;
+    }
+    
+    .delivery-address-address {
+        gap: 20px;
+    }
+    
+    .delivery-address-address i {
+        font-size: 16px;
+    }
+    
+    .delivery-address-address span {
+        font-size: 14px;
+    }
+    
+    .address-part {
+        gap: 6px;
+    }
+    
+    .delivery-method-part {
+        gap: 11px;
+    }
+    
+    .delivery-method-part div span {
+        font-size: 12px;
+    }
+    
+    .delivery-method-part select {
+        font-size: 14px;
+        height: 32px;
+        width: 135px;
+    }
+    
+    .delivery-method-part select option {
+        font-size: 12px;
+    }
+    
+    .shipping-fee {
+        gap: 11px;
+    }
+    
+    .shipping-fee span {
+        font-size: 12px;
+    }
+    
+    .shipping-fee h4 {
+        font-size: 16px;
+    }
+
+    .delivery-method-part span {
+        font-size: 12px;
+    }
+}
+
+/*************************************************************/
+/***** DELIVERY ADDRESS - (0px - 320px)  *****/
+/*************************************************************/
+@media all and (max-width: 320px) {
+    .delivery-address {
+        min-height: 200px;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .delivery-part {
+        margin: 16px 0;
+        min-height: 150px;
+        gap: 16px;
+    }
+    
+    .delivery-topic-name {
+        font-size: 15px;
+    }
+    
+    .delivery-address-address {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .delivery-address-address i {
+        font-size: 15px;
+    }
+    
+    .delivery-address-address span {
+        font-size: 13px;
+    }
+    
+    .address-part {
+        gap: 6px;
+    }
+    
+    .delivery-method-part {
+        gap: 10px;
+    }
+    
+    .delivery-method-part div span {
+        font-size: 11px;
+    }
+    
+    .delivery-method-part select {
+        font-size: 13px;
+        height: 30px;
+        width: 125px;
+    }
+    
+    .delivery-method-part select option {
+        font-size: 11px;
+    }
+    
+    .shipping-fee {
+        gap: 10px;
+    }
+    
+    .shipping-fee span {
+        font-size: 11px;
+    }
+    
+    .shipping-fee h4 {
+        font-size: 15px;
+    }
+
+    .delivery-method-part span {
+        font-size: 11px;
+    }
+}
+

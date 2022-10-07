@@ -74,11 +74,3 @@ export default function App() {
 
 
 
-// {...settings} => ... is called spread operator
-
-{/* <SwiperSlide className="hero-carousel-item"><img className="hero-carousel-img" src={img1} alt="" /></SwiperSlide>
-<SwiperSlide className="hero-carousel-item"><img className="hero-carousel-img" src={img2} alt="" /></SwiperSlide>
-<SwiperSlide className="hero-carousel-item"><img className="hero-carousel-img" src={img3} alt="" /></SwiperSlide> */}
-
-// hero-carousel
-
